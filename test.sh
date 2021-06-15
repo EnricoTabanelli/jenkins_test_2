@@ -1,5 +1,5 @@
 #!/bin/bash
-
+pwd
 repository="https://github.com/pulp-platform/pulp-sdk.git"
 cd /home/etabanelli/Desktop
 git clone $repository
