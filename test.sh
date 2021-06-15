@@ -1,8 +1,9 @@
 #!/bin/bash
 
 repository="https://github.com/pulp-platform/pulp-sdk.git"
-
+cd /home/etabanelli/Desktop
 git clone $repository
+
 RESULT=1
 echo "$RESULT"
 
