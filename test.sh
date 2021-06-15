@@ -6,7 +6,7 @@ git clone $repository
 RESULT=1
 echo "$RESULT"
 
-rm -rf pulp-sdk
+
 
 if [ "$RESULT" = 1 ]; then
 	echo "OK"
