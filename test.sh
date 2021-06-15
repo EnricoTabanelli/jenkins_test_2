@@ -8,7 +8,7 @@ echo "$RESULT"
 
 rm -rf pulp-sdk
 
-if [ "$RESULT" = "$y" ]; then
+if [ "$RESULT" = 1 ]; then
 	echo "OK"
 	exit 0
 else
