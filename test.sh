@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repository="git@github.com:pulp-platform/pulp-sdk.git"
+repository="https://github.com/pulp-platform/pulp-sdk.git"
 
 git clone $repository
 RESULT=1
