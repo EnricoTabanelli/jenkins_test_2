@@ -3,9 +3,14 @@ pipeline {
     stages {
         stage('build') {
             steps {
-		sh 'sh ./test.sh'
+		sh 'sh ./build.sh'
             }
         }
+	stage('test') {
+	    steps {
+		sh 'sh ./test.sh'
+	    }
+	}
     }
 
 post {
